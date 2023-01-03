@@ -28,11 +28,29 @@ function generatePassword() {
     // select a random lowercase 
     for (var i = 0; i < numberOfCharacters; i++) {
       if (lCase === true) {
-       var lc = alphaLowerCase[Math.floor(Math.random() * 26)];
-       console.log(lc);
-       finalPassword = finalPassword + lc;
-       console.log(finalPassword);
-     }
+        var lc = alphaLowerCase[Math.floor(Math.random() * alphaLowerCase.length)];
+        console.log(lc);
+        finalPassword = finalPassword + lc;
+        console.log(finalPassword);
+      }
+       if (uCase === true) {
+        var uc = alphaUpperCase[Math.floor(Math.random() * alphaUpperCase.length)];
+        console.log(uc);
+        finalPassword = finalPassword + uc;
+        console.log(finalPassword);
+      }
+       if (num === true) {
+        var nm = number[Math.floor(Math.random() * number.length)];
+        console.log(nm);
+        finalPassword = finalPassword + nm;
+        console.log(finalPassword);
+      }
+       if (sCharacters === true) {
+        var sc = specialCharacter[Math.floor(Math.random() * specialCharacter.length)];
+        console.log(sc);
+        finalPassword = finalPassword + sc;
+        console.log(finalPassword);
+      }
      }
 
   return finalPassword;
