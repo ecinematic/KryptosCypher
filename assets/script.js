@@ -21,9 +21,6 @@ function generatePassword() {
     uCase = confirm("Do you want uppercase letters?");
     num = confirm("Do you want numbers?");
     sCharacters = confirm("Do you want special characters?")
-    
-    console.log(typeof lCase);
-    console.log(lCase);
 
     // select a random lowercase 
     for (var i = 0; i < numberOfCharacters; i++) {
