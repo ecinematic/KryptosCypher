@@ -34,4 +34,4 @@ Creates random password from 8 - 128 characters based on the user selection.
 
 The user is also able to select if the password should include, upper-case, lower-case, numbers, and/or symbols.
 
-N/A<img width="887" alt="PasswordGenerator" src="https://user-images.githubusercontent.com/40043251/211452846-1e3f9cf8-43a8-4b20-b2fd-60ef38300b78.png">
+<img width="887" alt="PasswordGenerator" src="https://user-images.githubusercontent.com/40043251/211452846-1e3f9cf8-43a8-4b20-b2fd-60ef38300b78.png">
